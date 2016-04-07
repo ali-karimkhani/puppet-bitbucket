@@ -1,9 +1,7 @@
 # == Class: bitbucket
 # === Authors
 #
-# Ali Karimkhani <ali.karimkhani@allianceboots.com>
-# === Copyright
-# Copyright 2016 Alliance Boots
+# Ali Karimkhani <ali@maatiss.co.uk>
 
 class bitbucket (
 
