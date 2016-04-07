@@ -1,0 +1,21 @@
+#
+class bitbucket::params {
+    $db_server = hiera('bitbucket::db_server')
+    $db_port = hiera('bitbucket::db_port')
+    $db_username = hiera('bitbucket::db_username')
+    $db_password = hiera('bitbucket::db_password')
+    $jdk_home =  hiera('bitbucket::jdk_home')
+    $java_opts =  hiera('bitbucket::java_opts')
+    $jvm_support_recommended_args =  hiera('bitbucket::jvm_support_recommended_args')
+    $jvm_xms =  hiera('bitbucket::jvm_xms')
+    $jvm_permgen =  hiera('bitbucket::jvm_permgen')
+    $admin_username = hiera('bitbucket::admin_username')
+    $admin_password = hiera('bitbucket::admin_password')
+    $server_port = hiera('bitbucket::server_port')
+    $bitbucket_user =  hiera('bitbucket_user')
+    $bitbucket_group =  hiera('bitbucket_group')
+    $install_dir =  hiera('install_dir')
+    $atlassian_dir =  hiera('atlassian_dir')
+    $home_dir =  hiera('home_dir')
+    $service_path = hiera('bitbucket::service_path')
+}
