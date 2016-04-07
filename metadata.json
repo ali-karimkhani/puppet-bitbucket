@@ -1,0 +1,11 @@
+{
+  "name": "bitbucket",
+  "version": "0.0.1",
+  "author": "Ali Karimkhani",
+  "summary": "Install and configure Atlassian Bitbucket",
+  "source": "",
+  "description": "This module will install and configure Atlassian Bitbucket",
+  "license": "UNKNOWN",
+  "dependencies": []
+}
+
