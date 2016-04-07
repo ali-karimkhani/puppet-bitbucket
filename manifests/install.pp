@@ -47,7 +47,7 @@ class bitbucket::install inherits bitbucket {
     path    => '/sbin:/bin:/usr/sbin:/usr/bin',
     user    => "${bitbucket_user}",
     group   => "${bitbucket_group}",
-    command => "curl http://gb2inffilp1.resources.corp.internal/SOURCES/atlassian/bitbucket/atlassian-bitbucket-4.4.1.tar.gz | tar zxf -",
+    command => "curl atlassian-bitbucket-4.4.1.tar.gz | tar zxf -",
     require => [ Package['curl'], User["$bitbucket_user"] ]
   }
 
